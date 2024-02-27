@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    /* background-color: rgb(255, 218, 169); */
+}
+.hero{
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    color: rgb(7, 177, 255);
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 4rem;
+
+}
+
+.watch_text{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.btn_time{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+#play{
+    background-color: rgb(7, 177, 255);
+}
+#pause{
+    background-color: orangered;
+}
+#reset{
+    background-color: greenyellow;
+}
+#lap{
+    background-color: brown;
+}
+
+.laps{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    width: 100%;
+}
+.laps div{
+    /* width: 100%; */
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-around; */
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.flags{
+    letter-spacing: 10px;
+    
+}
+
+.flags i{
+    color: orangered;
+}
